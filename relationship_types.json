@@ -24,5 +24,18 @@
     "contact_sub_type_b":"",
     "is_active":1,
     "is_reserved":0
+  },
+  "pastor":
+  {
+    "name_a_b":"pastor_of",
+    "label_a_b":"Pastor of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"pastor_is",
+    "label_b_a":"Pastor is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
   }
 }
