@@ -1,0 +1,28 @@
+{
+  "discipleship":
+  {
+    "name_a_b": "disciplee_of",
+    "label_a_b":"Disciplee of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a": "discipler_of",
+    "label_b_a":"Discipler of",
+    "contact_type_b":"Individual",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "denomination":
+  {
+    "name_a_b":"denomination_is",
+    "label_a_b":"Denomination is",
+    "contact_type_a":"Organization",
+    "contact_sub_type_a":"",
+    "name_b_a":"association_for",
+    "label_b_a":"Association for",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  }
+}

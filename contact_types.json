@@ -1,0 +1,27 @@
+{
+  "church":
+  {
+    "name": "church",
+    "label":"Church",
+    "parent_id":3
+  },
+  "school":
+  {
+    "name": "school",
+    "label":"School",
+    "parent_id":3
+  },
+  "church_group":
+  {
+    "name": "church_group",
+    "label":"Church_group",
+    "parent_id":3
+  },
+  "denomination":
+  {
+    "name": "denomination",
+    "label":"Denomination",
+    "parent_id":3
+  }
+
+}
