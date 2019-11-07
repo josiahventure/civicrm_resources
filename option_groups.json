@@ -102,5 +102,43 @@
         "is_active":1
       }
     }
+  },
+  "challenge":{
+    "name":"challenge",
+    "title":"Challenge",
+    "is_active":"1",
+    "is_reserved":"0",
+    "option_values":{
+      "d1":{
+        "name":"d1",
+        "value":"1",
+        "label":"Come and See",
+        "is_active":1
+      },
+      "d2":{
+        "name":"d2",
+        "value":"2",
+        "label":"Repent and Believe",
+        "is_active":1
+      },
+      "d3":{
+        "name":"d3",
+        "value":"3",
+        "label":"Follow Me",
+        "is_active":1
+      },
+      "d4":{
+        "name":"d4",
+        "value":"4",
+        "label":"Follow Me and Fish for Men",
+        "is_active":1
+      },
+      "d5":{
+        "name":"d5",
+        "value":"5",
+        "label":"I am sending you",
+        "is_active":1
+      }
+    }
   }
 }
