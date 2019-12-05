@@ -14,7 +14,7 @@
   "church_group":
   {
     "name": "church_group",
-    "label":"Church_group",
+    "label":"Church Group",
     "parent_id":3
   },
   "denomination":
@@ -22,6 +22,17 @@
     "name": "denomination",
     "label":"Denomination",
     "parent_id":3
+  },
+  "band":
+  {
+    "name": "band",
+    "label":"Musical Band",
+    "parent_id":3
+  },
+  "staff":
+  {
+    "name": "staff",
+    "label":"Staff Person",
+    "parent_id":1
   }
-
 }

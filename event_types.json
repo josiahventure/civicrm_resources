@@ -1,0 +1,92 @@
+{
+  "camp":{
+    "name": "camp",
+    "label": "Camp",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "conference":{
+    "name": "conference",
+    "label": "Conference",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "exhibition":{
+    "name": "exhibition",
+    "label": "Exhibition",
+    "is_active": 0,
+    "is_reserved":"0"
+  },
+  "performance":{
+    "name": "performance",
+    "label": "Performance",
+    "is_active": 0,
+    "is_reserved":"0"
+  },
+  "fundraiser":{
+    "name": "fundraiser",
+    "label": "Fundraiser",
+    "is_active": 0,
+    "is_reserved":"0"
+  },
+  "training":{
+    "name": "training",
+    "label": "Training",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "school":{
+    "name": "school",
+    "label": "School",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "concert":{
+    "name": "concert",
+    "label": "Concert",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "festival":{
+    "name": "festival",
+    "label": "Festival",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "retreat":{
+    "name": "retreat",
+    "label": "Retreat",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "tour":{
+    "name": "tour",
+    "label": "Tour",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "tournament":{
+    "name": "tournament",
+    "label": "Tournament",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "trip":{
+    "name": "trip",
+    "label": "Trip",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "choir":{
+    "name": "choir",
+    "label": "Choir",
+    "is_active": 1,
+    "is_reserved":"0"
+  },
+  "other":{
+    "name": "other",
+    "label": "Other",
+    "is_active": 1,
+    "is_reserved":"0"
+  }
+}

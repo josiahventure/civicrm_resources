@@ -11,7 +11,7 @@
     "fields": {
       "national_organization": {
         "name": "national_organization",
-        "label": "National organization",
+        "label": "National Organization",
         "option_group": "national_organization",
         "data_type": "String",
         "html_type": "Select",
@@ -26,7 +26,7 @@
         "label": "Area",
         "option_group": "area",
         "data_type": "String",
-        "html_type": "Autocomplete-Select",
+        "html_type": "Select",
         "is_searchable": 1,
         "is_view": 0,
         "column_name": "area",
@@ -45,10 +45,10 @@
         "weight": -40,
         "is_active": 1
       },
-      "challenges": {
+      "challenge": {
         "name": "challenge",
         "label": "Challenge",
-        "option_group": "challenge",
+        "option_group": "dsc_pathway",
         "data_type": "String",
         "html_type": "CheckBox",
         "is_searchable": 1,
@@ -56,7 +56,277 @@
         "column_name": "challenge",
         "weight": -40,
         "is_active": 1
+      },
+      "highway": {
+        "name": "highway",
+        "label": "Highway",
+        "option_group": "Highway",
+        "data_type": "String",
+        "html_type": "CheckBox",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "highway",
+        "weight": -40,
+        "is_active": 1
+      },
+      "sponsored": {
+        "name": "sponsored",
+        "label": "Sponsored by",
+        "option_group": "sponsored",
+        "data_type": "String",
+        "html_type": "CheckBox",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "sponsored",
+        "weight": -40,
+        "is_active": 1
       }
+    }
+  },
+  "event_metrics":{
+    "name":"event_metrics",
+    "title":"Event metrics",
+    "extends":"Event",
+    "style":"Inline",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_event_metrics",
+    "fields": {
+      "attn": {
+        "name": "attn",
+        "label": "Attendance",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "attn_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "blv": {
+        "name": "blv",
+        "label": "Believers",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "blv_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "unb": {
+        "name": "unb",
+        "label": "Unbelievers",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "unb_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "fyg": {
+        "name": "fyg",
+        "label": "Foreign youth group attendees",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "fyg_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "pof": {
+        "name": "pof",
+        "label": "Professions of faith",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "pof_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "rof": {
+        "name": "rof",
+        "label": "Reaffirmations of faith",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "rof_cnt",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "ind_data":{
+    "name":"ind_data",
+    "title":"Individual data",
+    "extends":"Individual",
+    "style":"Inline",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_ind_data",
+    "fields": {
+      "dsc_pathway": {
+        "name": "dsc_pathway",
+        "label": "Discipleship pathway",
+        "option_group": "dsc_pathway",
+        "data_type": "String",
+        "html_type": "Radio",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "dsc_pathway",
+        "weight": -40,
+        "is_active": 1
+      },
+      "ldr_pathway": {
+        "name": "ldr_pathway",
+        "label": "Leadeship pathway",
+        "option_group": "ldr_pathway",
+        "data_type": "String",
+        "html_type": "Radio",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "ldr_pathway",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "org_ch_data":{
+  "name":"church_data",
+  "title":"Church data",
+  "extends":"Organization",
+  "extends_entity_column_value":"church",
+  "style":"Inline",
+  "is_active":1,
+  "is_reserved":0,
+  "collapse_display":0,
+  "table_name":"custom_church_data",
+  "fields": {
+    "dsc_pathway": {
+      "name": "mnry_phase",
+      "label": "Ministry phase",
+      "option_group": "mnry_phase",
+      "data_type": "String",
+      "html_type": "Radio",
+      "is_searchable": 1,
+      "is_view": 0,
+      "column_name": "mnry_phase",
+      "weight": -40,
+      "is_active": 1
+    }
+  }
+  },
+  "ch_gr_data":{
+    "name":"chgrp_data",
+    "title":"Church group data",
+    "extends":"Organization",
+    "extends_entity_column_value":"church_group",
+    "style":"Inline",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_chgrp_data",
+    "fields": {
+      "dsc_pathway": {
+        "name": "mnry_phase",
+        "label": "Ministry phase",
+        "option_group": "mnry_phase",
+        "data_type": "String",
+        "html_type": "Radio",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "mnry_phase",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "activity_data":{
+    "name":"activity_data",
+    "title":"Activity data",
+    "extends":"Activity",
+    "extends_entity_column_value":"",
+    "style":"Inline",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_activity_data",
+    "fields": {
+      "national_organization": {
+        "name": "national_organization",
+        "label": "National Organization",
+        "option_group": "national_organization",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "national_organization",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "act_eval_data":{
+     "name":"act_eval_data",
+     "title":"Evaluation data",
+     "extends":"Activity",
+     "extends_entity_column_value":"evaluation",
+     "style":"Inline",
+     "is_active":1,
+     "is_reserved":0,
+     "collapse_display":0,
+     "table_name":"custom_act_eval_data",
+     "fields": {
+     "blv": {
+        "name": "blv",
+        "label": "AVG believers",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "blv_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "unb": {
+        "name": "unb",
+        "label": "AVG unbelievers",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "unb_cnt",
+        "weight": -40,
+        "is_active": 1
+      },
+       "conv": {
+         "name": "conv",
+         "label": "Conversions",
+         "data_type": "Integer",
+         "html_type": "Text",
+         "is_searchable": 1,
+         "is_view": 0,
+         "column_name": "conv_cnt",
+         "weight": -40,
+         "is_active": 1
+       },
+       "bapt": {
+         "name": "bapt",
+         "label": "Baptisms",
+         "data_type": "Integer",
+         "html_type": "Text",
+         "is_searchable": 1,
+         "is_view": 0,
+         "column_name": "bapt_cnt",
+         "weight": -40,
+         "is_active": 1
+       }
     }
   }
 }

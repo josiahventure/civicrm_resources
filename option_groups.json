@@ -5,48 +5,124 @@
     "is_active":"1",
     "is_reserved":"0",
     "option_values":{
-      "kam":{
+      "cz":{
         "name":"cz",
         "value":"1",
         "label":"Czech Republic - KAM",
         "is_active":1
       },
-      "fala":{
+      "pl":{
         "name":"pl",
         "value":"2",
         "label":"Poland - Fala",
         "is_active":1
       },
-      "tckompas":{
+      "sk":{
         "name":"sk",
         "value":"3",
         "label":"Slovakia - TCKompas",
         "is_active":1
-      }
-    }
-  },
-  "ministry":{
-    "name":"ministry",
-    "title":"Ministry",
-    "is_active":"1",
-    "is_reserved":"0",
-    "option_values":{
-      "english":{
-        "name":"eng",
-        "value":"1",
-        "label":"English",
+      },
+      "zz":{
+        "name":"zz",
+        "value":"4",
+        "label":"Josiah Venture Wide",
+        "is_active":1
+    },
+      "sl":{
+        "name":"sl",
+        "value":"5",
+        "label":"Slovenia - Društvo Več",
+        "is_active":1
+    },
+      "rs":{
+        "name":"rs",
+        "value":"6",
+        "label":"Serbia - MREŽA",
         "is_active":1
       },
-      "fusion":{
-        "name":"fus",
-        "value":"2",
-        "label":"Fusion",
+      "ee":{
+        "name":"ee",
+        "value":"7",
+        "label":"Estonia - Koma",
         "is_active":1
       },
-      "edge":{
-        "name":"edg",
-        "value":"3",
-        "label":"Edge",
+      "lv":{
+        "name":"lv",
+        "value":"8",
+        "label":"Latvia - Jauniešu Virzība",
+        "is_active":1
+      },
+      "al":{
+        "name":"al",
+        "value":"9",
+        "label":"Albania - JetaPlus",
+        "is_active":1
+      },
+      "ua":{
+        "name":"ua",
+        "value":"10",
+        "label":"Ukraine - Епоха",
+        "is_active":1
+      },
+      "hr":{
+        "name":"hr",
+        "value":"11",
+        "label":"Croatia",
+        "is_active":1
+      },
+      "ro":{
+        "name":"ro",
+        "value":"12",
+        "label":"Romania - Vital 10/10",
+        "is_active":1
+      },
+      "hu":{
+        "name":"hu",
+        "value":"13",
+        "label":"Hungary",
+        "is_active":1
+      },
+      "bg":{
+        "name":"bg",
+        "value":"14",
+        "label":"Bulgaria",
+        "is_active":1
+      },
+      "de":{
+        "name":"de",
+        "value":"15",
+        "label":"Germany",
+        "is_active":1
+      },
+      "me":{
+        "name":"me",
+        "value":"16",
+        "label":"Montenegro",
+        "is_active":1
+      },
+      "md":{
+        "name":"md",
+        "value":"17",
+        "label":"Moldova",
+        "is_active":1
+      },
+      "uk":{
+        "name":"uk",
+        "value":"18",
+        "label":"United Kingdom",
+        "is_active":1
+      },
+      "ca":{
+        "name":"ca",
+        "value":"19",
+        "label":"Canada",
+        "is_active":1
+      },
+      "us":{
+        "name":"us",
+        "value":"20",
+        "label":"United States",
         "is_active":1
       }
     }
@@ -63,10 +139,10 @@
         "label":"Evangelism",
         "is_active":1
       },
-      "disciplemaking":{
+      "discipleship":{
         "name":"dsc",
         "value":"2",
-        "label":"Disciplemaking",
+        "label":"Discipleship",
         "is_active":1
       },
       "leadership_training":{
@@ -74,6 +150,68 @@
         "value":"3",
         "label":"Leadership Training",
         "is_active":1
+      },
+      "hrc":{
+        "name":"hrc",
+        "value":"4",
+        "label":"Healthy Reproducing Churches",
+        "is_active":1
+      },
+      "oth":{
+        "name":"oth",
+        "value":"5",
+        "label":"Other",
+        "is_active":1
+      }
+    }
+  },
+  "ministry":{
+    "name":"ministry",
+    "title":"Ministry",
+    "is_active":"1",
+    "is_reserved":"0",
+    "option_values":{
+      "english":{
+        "name":"eng",
+        "value":"1",
+        "label":"English",
+        "is_active":1,
+        "is_reserved":0
+      },
+      "fusion":{
+        "name":"fus",
+        "value":"2",
+        "label":"Fusion",
+        "is_active":1,
+        "is_reserved":0
+      },
+      "edge":{
+        "name":"edg",
+        "value":"3",
+        "label":"Edge",
+        "is_active":1,
+        "is_reserved":0
+      },
+      "exit":{
+        "name":"exit",
+        "value":"4",
+        "label":"Exit",
+        "is_active":1,
+        "is_reserved":0
+      },
+      "edu":{
+        "name":"edu",
+        "value":"5",
+        "label":"Education",
+        "is_active":1,
+        "is_reserved":0
+      },
+      "oth":{
+        "name":"oth",
+        "value":"99",
+        "label":"Other",
+        "is_active":1,
+        "is_reserved":0
       }
     }
   },
@@ -89,23 +227,67 @@
         "label":"Camps",
         "is_active":1
       },
+      "music":{
+        "name":"music",
+        "value":"2",
+        "label":"Music",
+        "is_active":1
+      },
       "sport":{
         "name":"sport",
-        "value":"2",
+        "value":"3",
         "label":"Sport",
         "is_active":1
       },
-      "music":{
-        "name":"music",
-        "value":"3",
-        "label":"Music",
+      "school":{
+        "name":"school",
+        "value":"4",
+        "label":"School",
+        "is_active":1
+      },
+      "media":{
+        "name":"media",
+        "value":"5",
+        "label":"Media",
         "is_active":1
       }
     }
   },
-  "challenge":{
-    "name":"challenge",
-    "title":"Challenge",
+  "sponsored":{
+    "name":"sponsored",
+    "title":"Sponsored by",
+    "is_active":"1",
+    "is_reserved":"0",
+    "option_values":{
+      "jv":{
+        "name":"jv",
+        "value":"1",
+        "label":"Josiah Venture",
+        "is_active":1
+      },
+      "ntorg":{
+        "name":"ntorg",
+        "value":"2",
+        "label":"National organization",
+        "is_active":1
+      },
+      "lch":{
+        "name":"lch",
+        "value":"3",
+        "label":"Local church",
+        "is_active":1
+      },
+      "oth":{
+        "name":"oth",
+        "value":"99",
+        "label":"Other",
+        "is_active":1
+      }
+    }
+  },
+  "dsc_pathway":{
+    "name":"dsc_pathway",
+    "title":"Discipleship Pathway",
     "is_active":"1",
     "is_reserved":"0",
     "option_values":{
@@ -130,13 +312,89 @@
       "d4":{
         "name":"d4",
         "value":"4",
-        "label":"Follow Me and Fish for Men",
+        "label":"Fish for Men",
         "is_active":1
       },
       "d5":{
         "name":"d5",
         "value":"5",
         "label":"I am sending you",
+        "is_active":1
+      }
+     }
+  },
+  "ldr_pathway":{
+    "name":"ldr_pathway",
+    "title":"Leadership Pathway",
+    "is_active":"1",
+    "is_reserved":"0",
+    "option_values":{
+      "l1":{
+        "name":"l1",
+        "value":"1",
+        "label":"L1 - Learn to lead",
+        "is_active":1
+      },
+      "l2":{
+        "name":"l2",
+        "value":"2",
+        "label":"L2 - Lead others",
+        "is_active":1
+      },
+      "l3":{
+        "name":"l3",
+        "value":"3",
+        "label":"L3 - Equip leaders",
+        "is_active":1
+      },
+      "l4":{
+        "name":"l4",
+        "value":"4",
+        "label":"L4 - Inspire leaders",
+        "is_active":1
+      },
+      "l5":{
+        "name":"l5",
+        "value":"5",
+        "label":"L5 - Create movement",
+        "is_active":1
+      }
+    }
+  },
+  "mnry_phase":{
+      "name":"mnry_phase",
+      "title":"Multiplying ministry",
+      "is_active":"1",
+      "is_reserved":"0",
+      "option_values":{
+        "m1":{
+        "name":"m1",
+        "value":"1",
+        "label":"Preparation",
+        "is_active":1
+      },
+      "m2":{
+        "name":"m2",
+        "value":"2",
+        "label":"Foundations",
+        "is_active":1
+      },
+      "m3":{
+        "name":"m3",
+        "value":"3",
+        "label":"Equipping",
+        "is_active":1
+      },
+      "m4":{
+        "name":"m4",
+        "value":"4",
+        "label":"Expansion",
+        "is_active":1
+      },
+      "m5":{
+        "name":"m5",
+        "value":"5",
+        "label":"Multiplication",
         "is_active":1
       }
     }

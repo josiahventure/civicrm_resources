@@ -17,11 +17,11 @@
     "name_a_b":"denomination_is",
     "label_a_b":"Denomination is",
     "contact_type_a":"Organization",
-    "contact_sub_type_a":"",
+    "contact_sub_type_a":"church",
     "name_b_a":"association_for",
     "label_b_a":"Association for",
     "contact_type_b":"Organization",
-    "contact_sub_type_b":"",
+    "contact_sub_type_b":"denomination",
     "is_active":1,
     "is_reserved":0
   },
@@ -34,8 +34,138 @@
     "name_b_a":"pastor_is",
     "label_b_a":"Pastor is",
     "contact_type_b":"Organization",
+    "contact_sub_type_b":"church",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "director":
+  {
+    "name_a_b":"director_of",
+    "label_a_b":"Director of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"director_is",
+    "label_b_a":"Director is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"school",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "chief":
+  {
+    "name_a_b":"chief_of",
+    "label_a_b":"Chief of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"chief_is",
+    "label_b_a":"Chief is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"denomination",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "leader":
+  {
+    "name_a_b":"leader_of",
+    "label_a_b":"Leader of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"leader_is",
+    "label_b_a":"Leader is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"church_group",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "responsible":
+  {
+    "name_a_b":"responsible_for",
+    "label_a_b":"Responsible for",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"staff",
+    "name_b_a":"responsible_is",
+    "label_b_a":"Responsible is",
+    "contact_type_b":"",
     "contact_sub_type_b":"",
     "is_active":1,
     "is_reserved":0
+  },
+  "member":
+  {
+    "name_a_b":"member_of",
+    "label_a_b":"Member of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"member_is",
+    "label_b_a":"Member is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "church_group":
+  {
+    "name_a_b":"organized_by",
+    "label_a_b":"Organized by",
+    "contact_type_a":"Organization",
+    "contact_sub_type_a":"church_group",
+    "name_b_a":"organizes",
+    "label_b_a":"Organizes",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"church",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "contact":
+  {
+    "name_a_b":"contact_for",
+    "label_a_b":"Contact for",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"contact_is",
+    "label_b_a":"Contact is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "leadership_team":
+  {
+    "name_a_b":"leadership_for",
+    "label_a_b":"Part of leadership for",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"leadership_team_is",
+    "label_b_a":"Leadership team is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "6":
+  {
+    "name_a_b":"Volunteer for",
+    "label_a_b":"Volunteer for",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"Volunteer is",
+    "label_b_a":"Volunteer is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":0,
+    "is_reserved":0
+  },
+  "5":
+  {
+    "name_a_b":"Employee of",
+    "label_a_b":"Employee of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"Employer of",
+    "label_b_a":"Employer of",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":1
   }
 }
