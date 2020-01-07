@@ -1,0 +1,10 @@
+{
+  "service":
+  {
+    "name": "Service",
+    "display_name": "Service",
+    "description": "Service location",
+    "is_reserved": "1",
+    "is_active": "1"
+  }
+}

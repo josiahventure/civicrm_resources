@@ -185,7 +185,7 @@
       },
       "ldr_pathway": {
         "name": "ldr_pathway",
-        "label": "Leadeship pathway",
+        "label": "Leadership pathway",
         "option_group": "ldr_pathway",
         "data_type": "String",
         "html_type": "Radio",
@@ -247,6 +247,135 @@
       }
     }
   },
+  "band_data":{
+    "name":"band_data",
+    "title":"Band data",
+    "extends":"Organization",
+    "extends_entity_column_value":"band",
+    "style":"Inline",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_band_data",
+    "fields": {
+      "mnry": {
+        "name": "mnry",
+        "label": "Band ministry",
+        "option_group": "ministry",
+        "data_type": "String",
+        "html_type": "Multi-Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "mnry",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "band_avl":{
+    "name":"band_avl",
+    "title":"Band availability",
+    "extends":"Organization",
+    "extends_entity_column_value":"band",
+    "style":"Tab with table",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_band_avl",
+    "fields": {
+      "from_dt": {
+        "name": "from_dt",
+        "label": "From date",
+        "data_type": "Date",
+        "html_type": "Select Date",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "from_dt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "till_dt": {
+        "name": "till_dt",
+        "label": "Till date",
+        "data_type": "Date",
+        "html_type": "Select Date",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "till_dt",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
+  "materials":{
+    "name":"materials",
+    "title":"Materials",
+    "extends":"Organization",
+    "extends_entity_column_value":"",
+    "style":"Tab with table",
+    "is_active":1,
+    "is_reserved":0,
+    "collapse_display":0,
+    "table_name":"custom_materials",
+    "fields": {
+      "received_dt": {
+        "name": "received_dt",
+        "label": "Received date",
+        "data_type": "Date",
+        "html_type": "Select Date",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "received_dt",
+        "weight": -40,
+        "is_active": 1
+      },
+      "material": {
+        "name": "material",
+        "label": "Material",
+        "option_group": "material",
+        "data_type": "String",
+        "html_type": "Multi-Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "material",
+        "weight": -40,
+        "is_active": 1
+      },
+      "quantity": {
+        "name": "quantity",
+        "label": "Quantity",
+        "data_type": "Integer",
+        "html_type": "Text",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "quantity",
+        "weight": -40,
+        "is_active": 1
+      },
+      "receiver": {
+        "name": "receiver",
+        "label": "Receiver",
+        "data_type": "ContactReference",
+        "html_type": "Autocomplete-Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "receiver",
+        "weight": -40,
+        "is_active": 1
+      },
+      "staff": {
+        "name": "staff",
+        "label": "Handed over by",
+        "data_type": "ContactReference",
+        "html_type": "Autocomplete-Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "staff",
+        "weight": -40,
+        "is_active": 1
+      }
+    }
+  },
   "activity_data":{
     "name":"activity_data",
     "title":"Activity data",
@@ -269,6 +398,17 @@
         "column_name": "national_organization",
         "weight": -40,
         "is_active": 1
+      },
+      "private": {
+        "name": "is_private",
+        "label": "Private",
+        "data_type":"Boolean",
+        "html_type":"Radio",
+        "is_searchable":1,
+        "is_view":0,
+        "column_name":"is_private",
+        "weight":-130,
+        "is_active":1
       }
     }
   },

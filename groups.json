@@ -1,0 +1,189 @@
+{
+  "al_contact": {
+    "name": "al_contact",
+    "title": "Albanian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for AL contacts",
+    "form_values": [
+      ["country_id", "=", 1002]
+    ]
+  },
+  "bg_contact": {
+    "name": "bg_contact",
+    "title": "Bulgarian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for BG contacts",
+    "form_values": [
+      ["country_id", "=", 1033]
+    ]
+  },
+  "cz_contact": {
+    "name": "cz_contact",
+    "title": "Czech contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for CZ contacts",
+    "form_values": [
+      ["country_id", "=", 1058]
+    ]
+  },
+  "ee_contact": {
+    "name": "ee_contact",
+    "title": "Estonian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for EE contacts",
+    "form_values": [
+      ["country_id", "=", 1082]
+    ]
+  },
+  "hr_contact": {
+    "name": "hr_contact",
+    "title": "Croatian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for HR contacts",
+    "form_values": [
+      ["country_id", "=", 1055]
+    ]
+  },
+  "de_contact": {
+    "name": "de_contact",
+    "title": "German contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for DE contacts",
+    "form_values": [
+      ["country_id", "=", 1082]
+    ]
+  },
+  "hu_contact": {
+    "name": "hu_contact",
+    "title": "Hungarian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for HU contacts",
+    "form_values": [
+      ["country_id", "=", 1099]
+    ]
+  },
+  "lv_contact": {
+    "name": "lv_contact",
+    "title": "Latvian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for LV contacts",
+    "form_values": [
+      ["country_id", "=", 1119]
+    ]
+  },
+  "md_contact": {
+    "name": "md_contact",
+    "title": "Moldovan contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for MD contacts",
+    "form_values": [
+      ["country_id", "=", 1142]
+    ]
+  },
+  "me_contact": {
+    "name": "me_contact",
+    "title": "Montenegrin contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for ME contacts",
+    "form_values": [
+      ["country_id", "=", 1243]
+    ]
+  },
+  "pl_contact": {
+    "name": "pl_contact",
+    "title": "Polish contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for PL contacts",
+    "form_values": [
+      ["country_id", "=", 1172]
+    ]
+  },
+  "ro_contact": {
+    "name": "ro_contact",
+    "title": "Romanian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for RO contacts",
+    "form_values": [
+      ["country_id", "=", 1176]
+    ]
+  },
+  "rs_contact": {
+    "name": "rs_contact",
+    "title": "Serbian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for RS contacts",
+    "form_values": [
+      ["country_id", "=", 1242]
+    ]
+  },
+  "sk_contact": {
+    "name": "sk_contact",
+    "title": "Slovak contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for SK contacts",
+    "form_values": [
+      ["country_id", "=", 1192]
+    ]
+  },
+  "sl_contact": {
+    "name": "sl_contact",
+    "title": "Slovenian contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for SL contacts",
+    "form_values": [
+      ["country_id", "=", 1193]
+    ]
+  },
+  "ua_contact": {
+    "name": "ua_contact",
+    "title": "Ukraininan contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for UA contacts",
+    "form_values": [
+      ["country_id", "=", 1224]
+    ]
+  },
+  "us_contact": {
+    "name": "us_contact",
+    "title": "US contact",
+    "is_active":1,
+    "is_reserved":1,
+    "group_type":"1",
+    "description":"Group for US contacts",
+    "form_values": [
+      ["country_id", "=", 1228]
+    ]
+  }
+}

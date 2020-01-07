@@ -398,5 +398,37 @@
         "is_active":1
       }
     }
+  },
+  "material":{
+    "name":"material",
+    "title":"Material",
+    "is_active":"1",
+    "is_reserved":"0",
+    "option_values":{
+      "look":{
+        "name":"look",
+        "value":"l1",
+        "label":"Look",
+        "is_active":1
+      },
+      "gro_1":{
+        "name":"gro_1",
+        "value":"g1",
+        "label":"Gro 1",
+        "is_active":1
+      },
+      "gro_2":{
+        "name":"gro_2",
+        "value":"g2",
+        "label":"gro_2",
+        "is_active":1
+      },
+      "gro_3":{
+        "name":"gro_3",
+        "value":"g3",
+        "label":"gro_3",
+        "is_active":1
+      }
+    }
   }
 }
