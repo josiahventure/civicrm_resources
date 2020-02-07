@@ -38,6 +38,19 @@
     "is_active":1,
     "is_reserved":0
   },
+  "yth_leader":
+  {
+    "name_a_b":"yth_leader_at",
+    "label_a_b":"Youth leader at",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"",
+    "name_b_a":"yth_leader_is",
+    "label_b_a":"Youth leader is",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"church",
+    "is_active":1,
+    "is_reserved":0
+  },
   "director":
   {
     "name_a_b":"director_of",
@@ -167,5 +180,31 @@
     "contact_sub_type_b":"",
     "is_active":1,
     "is_reserved":1
+  },
+  "partnership":
+  {
+    "name_a_b": "partnership_with",
+    "label_a_b":"Partnership with",
+    "contact_type_a":"Organization",
+    "contact_sub_type_a":"",
+    "name_b_a": "partnership_with",
+    "label_b_a":"Partnership with",
+    "contact_type_b":"Organization",
+    "contact_sub_type_b":"",
+    "is_active":1,
+    "is_reserved":0
+  },
+  "uplink":
+  {
+    "name_a_b":"uplink_of",
+    "label_a_b":"Uplink of",
+    "contact_type_a":"Individual",
+    "contact_sub_type_a":"staff",
+    "name_b_a":"uplink_is",
+    "label_b_a":"Uplink is",
+    "contact_type_b":"Individual",
+    "contact_sub_type_b":"staff",
+    "is_active":1,
+    "is_reserved":0
   }
 }

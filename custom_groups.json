@@ -9,15 +9,15 @@
     "collapse_display":0,
     "table_name":"custom_event_data",
     "fields": {
-      "national_organization": {
-        "name": "national_organization",
+      "nt_org": {
+        "name": "nt_org",
         "label": "National Organization",
-        "option_group": "national_organization",
+        "option_group": "nt_org",
         "data_type": "String",
         "html_type": "Select",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "national_organization",
+        "column_name": "nt_org",
         "weight": -40,
         "is_active": 1
       },
@@ -33,51 +33,75 @@
         "weight": -40,
         "is_active": 1
       },
-      "ministry": {
-        "name": "ministry",
+      "mnry": {
+        "name": "mnry",
         "label": "Ministry",
-        "option_group": "ministry",
+        "option_group": "mnry",
         "data_type": "String",
         "html_type": "Multi-Select",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "ministry",
+        "column_name": "mnry",
         "weight": -40,
         "is_active": 1
       },
-      "challenge": {
-        "name": "challenge",
+      "chlg": {
+        "name": "chlg",
         "label": "Challenge",
         "option_group": "dsc_pathway",
         "data_type": "String",
         "html_type": "CheckBox",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "challenge",
+        "column_name": "chlg",
         "weight": -40,
         "is_active": 1
       },
-      "highway": {
-        "name": "highway",
+      "hway": {
+        "name": "hway",
         "label": "Highway",
-        "option_group": "Highway",
+        "option_group": "hway",
         "data_type": "String",
         "html_type": "CheckBox",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "highway",
+        "column_name": "hway",
         "weight": -40,
         "is_active": 1
       },
-      "sponsored": {
-        "name": "sponsored",
+      "spons": {
+        "name": "spons",
         "label": "Sponsored by",
-        "option_group": "sponsored",
+        "option_group": "spons",
         "data_type": "String",
         "html_type": "CheckBox",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "sponsored",
+        "column_name": "spons",
+        "weight": -40,
+        "is_active": 1
+      },
+      "src": {
+        "name": "src",
+        "label": "Source",
+        "option_group": "src",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "src_cd",
+        "weight": -40,
+        "is_active": 1
+      },
+      "src_sys": {
+        "name": "src_sys",
+        "label": "Source system",
+        "option_group": "src_sys",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "src_sys_id",
         "weight": -40,
         "is_active": 1
       }
@@ -194,6 +218,18 @@
         "column_name": "ldr_pathway",
         "weight": -40,
         "is_active": 1
+      },
+      "natl": {
+        "name": "natl",
+        "label": "Nationality",
+        "option_group": "natl",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "natl",
+        "weight": -40,
+        "is_active": 1
       }
     }
   },
@@ -261,7 +297,7 @@
       "mnry": {
         "name": "mnry",
         "label": "Band ministry",
-        "option_group": "ministry",
+        "option_group": "mnry",
         "data_type": "String",
         "html_type": "Multi-Select",
         "is_searchable": 1,
@@ -387,17 +423,41 @@
     "collapse_display":0,
     "table_name":"custom_activity_data",
     "fields": {
-      "national_organization": {
-        "name": "national_organization",
+      "nt_org": {
+        "name": "nt_org",
         "label": "National Organization",
-        "option_group": "national_organization",
+        "option_group": "nt_org",
         "data_type": "String",
         "html_type": "Select",
         "is_searchable": 1,
         "is_view": 0,
-        "column_name": "national_organization",
+        "column_name": "nt_org",
         "weight": -40,
         "is_active": 1
+      },
+      "act_purp_1": {
+        "name": "act_purp_1",
+        "label": "Purpose 1",
+        "option_group": "act_purp_1",
+        "data_type":"String",
+        "html_type":"Radio",
+        "is_searchable":1,
+        "is_view":0,
+        "column_name":"act_purp_1",
+        "weight":-130,
+        "is_active":1
+      },
+      "act_purp_2": {
+        "name": "act_purp_2",
+        "label": "Purpose 2",
+        "option_group": "act_purp_2",
+        "data_type":"String",
+        "html_type":"Radio",
+        "is_searchable":1,
+        "is_view":0,
+        "column_name":"act_purp_2",
+        "weight":-130,
+        "is_active":1
       },
       "private": {
         "name": "is_private",
@@ -409,6 +469,30 @@
         "column_name":"is_private",
         "weight":-130,
         "is_active":1
+      },
+      "src": {
+        "name": "src",
+        "label": "Source",
+        "option_group": "src",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "src_cd",
+        "weight": -40,
+        "is_active": 1
+      },
+      "src_sys": {
+        "name": "src_sys",
+        "label": "Source system",
+        "option_group": "src_sys",
+        "data_type": "String",
+        "html_type": "Select",
+        "is_searchable": 1,
+        "is_view": 0,
+        "column_name": "src_sys_id",
+        "weight": -40,
+        "is_active": 1
       }
     }
   },

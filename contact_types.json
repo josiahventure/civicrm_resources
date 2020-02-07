@@ -34,5 +34,11 @@
     "name": "staff",
     "label":"Staff Person",
     "parent_id":1
+  },
+  "nt_org":
+  {
+    "name": "nt_org",
+    "label":"National organization",
+    "parent_id":3
   }
 }
